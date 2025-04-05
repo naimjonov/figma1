@@ -1,0 +1,140 @@
+/* figtree-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/figtree-v7-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* figtree-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/figtree-v7-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* figtree-800 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/figtree-v7-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s ;
+}
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4D04E;
+    font-family: "Figtree",sans-serif ;
+}
+html {
+    height: 100%;
+}
+main {
+    flex-grow: 1;
+}
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.article {
+    background-color:#FFFFFF;
+    width: 384px;
+    border: 1px solid #111111;
+    border-radius: 20px;
+    padding: 24px;
+    box-shadow: 8px 8px 0px 0px #000000;
+    
+
+
+}
+.article:hover {
+    box-shadow: 16px 16px 0px 0px #000000;
+
+}
+
+.article-image {
+    margin-bottom: 24px;
+
+}
+
+.article-type {
+    padding: 4px 12px;
+    background-color: #F4D04E;
+    border-radius: 4px;
+    font-weight: 800;
+    display:inline-block;
+    margin-bottom: 12px;
+}
+
+.article-time {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: #111111;
+}
+
+
+.article-title {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 150%;
+    margin-bottom: 12px;
+}
+
+.article-title-link {
+    color:#111111;
+    text-decoration: none;
+}
+
+.article-title-link:hover {
+    color: #F4D04E;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+
+.article-description {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #7F7F7F;
+    margin-bottom: 12px;
+}
+
+
+.article-auther {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    
+
+}
+
+.article-auther-avatar {
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+.article-auther-name {
+    font-weight: 800;
+    font-size: 14px;
+}
